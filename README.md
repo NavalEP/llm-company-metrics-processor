@@ -13,7 +13,7 @@ This application uses the llama-3.1-8b-instant model from Groq to process user q
 ###Installation
 Clone this repository:
 ```bash
-git clone https://github.com/y/llm-company-metrics-processor.git
+git clone https://github.com/NavalEP/llm-company-metrics-processor.git
 cd llm-company-metrics-processor
 ```
 Install the required dependencies:
