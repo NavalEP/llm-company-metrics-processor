@@ -1,4 +1,4 @@
-###LLM-Powered Company Performance Metrics Query Processor
+### LLM-Powered Company Performance Metrics Query Processor
 This application uses the llama-3.1-8b-instant model from Groq to process user queries related to company performance metrics and convert them into a structured JSON format. It extracts key information such as company names, performance metrics, and date ranges from natural language queries.
 ###Features
 - Utilizes the llama-3.1-8b-instant model for natural language understanding
@@ -10,7 +10,7 @@ This application uses the llama-3.1-8b-instant model from Groq to process user q
 ###Requirements
 - Python 3.7+
 - groq library
-###Installation
+### Installation
 Clone this repository:
 ```bash
 git clone https://github.com/NavalEP/llm-company-metrics-processor.git
@@ -31,7 +31,7 @@ Run the script:
 ```bash
 python main.py
 ```
-###Usage
+### Usage
 Open the Jupyter notebook or Python script in your preferred environment.
 Run the cells or execute the script to process example queries or modify the queries list to add your own.
 The application will output the structured JSON for each query.
@@ -49,7 +49,7 @@ for query in queries:
     print()
 ```
 
-###Output Format
+### Output Format
 The application outputs JSON in the following format:
 ```json
 [
@@ -61,10 +61,9 @@ The application outputs JSON in the following format:
   }
 ]
 ```
-
-###Limitations and Future Improvements
+### Limitations and Future Improvements
 - The application currently assumes a simple date format. It could be extended to support more complex date parsing.
 - Error handling could be improved for edge cases and unexpected inputs.
 - The application could be extended to support more specific financial metrics and calculations.
-###License
+### License
 - This project is licensed under the MIT License - see the LICENSE file for details.
