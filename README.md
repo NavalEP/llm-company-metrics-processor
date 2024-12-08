@@ -27,7 +27,10 @@ Set the API key as an environment variable:
 ```bash
 export GROQ_API_KEY='your_api_key_here'
 ```
-
+Run the script:
+```bash
+python main.py
+```
 ###Usage
 Open the Jupyter notebook or Python script in your preferred environment.
 Run the cells or execute the script to process example queries or modify the queries list to add your own.
@@ -57,3 +60,13 @@ The application outputs JSON in the following format:
     "end_date": "YYYY-MM-DD"
   }
 ]
+<<<<<<< Updated upstream
+=======
+
+###Limitations and Future Improvements
+The application currently assumes a simple date format. It could be extended to support more complex date parsing.
+Error handling could be improved for edge cases and unexpected inputs.
+The application could be extended to support more specific financial metrics and calculations.
+###License
+This project is licensed under the MIT License - see the LICENSE file for details.
+>>>>>>> Stashed changes
