@@ -60,6 +60,7 @@ The application outputs JSON in the following format:
     "end_date": "YYYY-MM-DD"
   }
 ]
+```
 
 ###Limitations and Future Improvements
 - The application currently assumes a simple date format. It could be extended to support more complex date parsing.
