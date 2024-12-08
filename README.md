@@ -60,13 +60,10 @@ The application outputs JSON in the following format:
     "end_date": "YYYY-MM-DD"
   }
 ]
-<<<<<<< Updated upstream
-=======
 
 ###Limitations and Future Improvements
-The application currently assumes a simple date format. It could be extended to support more complex date parsing.
-Error handling could be improved for edge cases and unexpected inputs.
-The application could be extended to support more specific financial metrics and calculations.
+- The application currently assumes a simple date format. It could be extended to support more complex date parsing.
+- Error handling could be improved for edge cases and unexpected inputs.
+- The application could be extended to support more specific financial metrics and calculations.
 ###License
-This project is licensed under the MIT License - see the LICENSE file for details.
->>>>>>> Stashed changes
+- This project is licensed under the MIT License - see the LICENSE file for details.
